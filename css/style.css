@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+
+
+/* fine common */
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #e579e6;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.yellow{
+    background-color: #e1d67a;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.blue{
+    background-color: #0086ff;
+    margin-bottom: 5px;
+}
+
+.jumbotron{
+    background-color: #abcfe7;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+aside{
+    float: left;
+    background-color: #abcfe7;
+    height: 300px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.colonna-centrale{
+    float: left;
+    background-color: #abcfe7;
+    height: 300px;
+    width: 59%;
+    margin: 0 0.5% 10px;
+}
+
+.blue::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color: #8801fe;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+
+/* debug */
+
+
+
+/* fine debug */
