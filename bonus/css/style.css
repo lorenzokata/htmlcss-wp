@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* commons */
+
+.filtro{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    border-radius: 15px;
+}
+
+/* fine commons */
+
+
+
+
+
+/* container */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header{
+    margin-bottom: 30px;
+}
+
+#logo{
+    width: 15%;
+    margin-bottom: 3%;
+    border-right: 1px solid lightgrey;
+    padding-right: 2%;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* Jumbotron */
+
+.jumbotron{
+    height: 500px;
+    background-image: url('../img/2742190.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.jumbotron-text{
+    padding: 300px 45% 0px 60px;
+}
+
+ .jumbotron h2{
+    font-size: xx-large;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.jumbotron-text p{
+    color: white;
+}
+
+
+/* main-title*/
+
+.main-title{
+    margin-bottom: 40px;
+}
+
+.main-title h2{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.main-title span{
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(153, 153, 153);
+}
+
+
+/* main */
+
+main{
+    margin-bottom: 40px;
+}
+
+main .img{
+    background-position: center;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.jumbotron{
+    height: 500px;
+    background-image: url('../img/2742190.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.aside-sx .img{
+    background-image: url('../img/img-1.jpg');
+}
+
+.colonna-centrale .img{
+    background-image: url('../img/banner-2.jpg');
+}
+
+.aside-dx .img{
+    background-image: url('../img/img-3.jpg');
+}
+
+main h3{
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+main p{
+    color: rgb(153, 153, 153);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/* elementi flottanti */
+
+.notizia{
+    float: left;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.centrale{
+    margin: 0 5% 10px;
+}
+
+main::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+
+/* footer */
+
+footer{
+    text-align: center;
+    height: 40px;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+
+footer span{
+    color: red;
+}
